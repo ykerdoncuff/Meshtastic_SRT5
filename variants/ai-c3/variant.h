@@ -10,11 +10,11 @@
 #define LORA_SCK 4
 #define LORA_MISO 5
 #define LORA_MOSI 6
-#define LORA_CS 7
+#define LORA_CS 10
 
-#define LORA_DIO0 10
-#define LORA_DIO1 3
-#define LORA_RESET 2
+#define LORA_DIO0 2
+#define LORA_DIO1 7
+#define LORA_RESET 3
 
 // WaveShare Core1262-868M
 // https://www.waveshare.com/wiki/Core1262-868M
@@ -26,6 +26,7 @@
 
 #define SX126X_DIO2_AS_RF_SWITCH // use DIO2 as RF switch
 #define SX126X_DIO3_TCXO_VOLTAGE 1.8
+
 
 #define HAS_GPS 0
 #undef GPS_RX_PIN
